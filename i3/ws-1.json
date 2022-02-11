@@ -1,0 +1,79 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "user_off",
+    "geometry": {
+       "height": 547,
+       "width": 773,
+       "x": 0,
+       "y": 0
+    },
+    "name": "~ : bash — Konsole",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^konsole$",
+        "instance": "^x\\-terminal\\-emulator$",
+        "title": "^\\~\\ \\:\\ bash\\ \\—\\ Konsole$",
+        "window_role": "^MainWindow\\#1$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 547,
+               "width": 773,
+               "x": 0,
+               "y": 0
+            },
+            "name": "~ : mc — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^konsole$",
+                "instance": "^x\\-terminal\\-emulator$",
+                "title": "^\\~\\ \\:\\ mc\\ \\—\\ Konsole$",
+                "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 547,
+               "width": 773,
+               "x": 0,
+               "y": 0
+            },
+            "name": "~ : htop — Konsole",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^konsole$",
+                "instance": "^x\\-terminal\\-emulator$",
+                "title": "^\\~\\ \\:\\ htop\\ \\—\\ Konsole$",
+                "window_role": "^MainWindow\\#1$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
